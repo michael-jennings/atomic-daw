@@ -1,12 +1,15 @@
 {
-	// See http://go.microsoft.com/fwlink/?LinkId=827846
-	// for the documentation about the extensions.json format
-	"recommendations": [
-		// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
-    // Primary angular extension pack
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
     "devboosts.angular-productivity-pack",
-    // Additional angular extension pack
-    "doggy8088.angular-extension-pack",
-    "web-dave.vsc-angular-cli"
-	]
+    "web-dave.vsc-angular-cli",
+    "msjsdiag.debugger-for-chrome",
+    "ianhoney.task-master",
+    "UVBrain.angular2",
+    "ms-vscode.typescript-javascript-grammar",
+    "pmneo.tsimporter",
+    "DSKWRK.vscode-generate-getter-setter"
+  ]
 }

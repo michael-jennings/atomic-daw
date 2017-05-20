@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.formatOnSave": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.vscode/chrome/*/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.vscode/chrome": true
+  },
+  "tsimporter.filesToExclude": [],
+  "tslint.autoFixOnSave": true,
+  "vsicons.presets.angular": true
+}
