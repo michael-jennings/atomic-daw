@@ -2,6 +2,8 @@
   "version": "0.2.0",
   "configurations": [
     {
+      // To debug, run "npm run start" from the Tasks menu (click "Tasks" on the vscode status bar), then press F5.
+      // If your breakpoints aren't hit initially, reload the page.
       "type": "chrome",
       "request": "launch",
       "name": "Launch Chrome",
@@ -11,7 +13,10 @@
       "userDataDir": "${workspaceRoot}/.vscode/chrome",
       "runtimeArgs": [
         "--disable-session-crashed-bubble"
-      ]
+      ],
+      "smartStep": true
+      // Uncomment this to get diagnostic logs in the console
+      //,"diagnosticLogging": true
     },
     {
       "name": "Attach Chrome",
