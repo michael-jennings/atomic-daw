@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --sourcemaps",
-    "build": "ng build -aot --output-hashing=all --sourcemaps",
+    "build": "ng build -aot --output-hashing=all",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
